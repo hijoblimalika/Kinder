@@ -1,0 +1,19 @@
+var frame = document.getElementById('iframe_bdi');
+if (frame && frame.src && frame.src.match('kinder-2019-1.letoagency.ru')) {
+  setTimeout(function() {
+    var parent = frame.parentElement;
+    if ('iframe_container' === parent.id) {
+      parent.style.height = '5200px';
+    }
+  }, 500);
+}
+
+var frame = document.getElementById('iframe_bdi');
+if (frame && frame.src && frame.src.match('kinder-2019-2.letoagency.ru')) {
+  var frameLetoParams = window.location.search;
+  if (frameLetoParams.indexOf('confirm=') == -1) {
+    frameLetoParams += (frameLetoParams === '' ? '?' : '&');
+  }
+
+  frame.src = 'https://kinder-2019-2.letoagency.ru/' + frameLetoParams;
+}

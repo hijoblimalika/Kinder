@@ -1,0 +1,168 @@
+.navbar{
+    width: 100%;
+    height: 8vh;
+    background-color: orangered;
+}
+.logo{
+    width: 11%;
+    height: 5vh;
+    margin-left: 2%;
+}
+.collection{
+    display: flex;
+}
+.item{
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-left: 9%;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    transform: translateY(-30px) translateX(90%);
+
+    
+}
+.bizning-vazifa {
+    display: flex;
+}
+.bizning-vazifa img{
+    width: 62%;
+    height: 90vh;
+    margin-left: 28%;
+    border-radius: 405px 0px 0px 0px;
+}
+.bizning-vazifa h1{
+    color: black;
+    width: 30px;
+    height: 5vh;
+    margin-top: 10%;
+    font-size: 47px;
+    margin-left: 8%;
+    font-style: italic;
+}
+
+.text p{
+    width: 30%;
+    font-size: 27px;
+    margin-left: 5%;
+    transform: translateY(-250%);
+    font-style: italic;
+
+
+}
+.vazifa{
+    width: 15%;
+    height: 10vh;
+    background: orangered;
+    margin-left: 5%;
+    border-radius: 500px 500px 500px 500px;
+    transform: translateY(-450%) rotate(-15deg);
+    padding-left: 3%;
+    padding-top: 2px;
+    color: white;
+}
+.surpriz{
+    width: 100%;
+    height: 100vh;
+    transform: translateY(-35%);
+
+}
+.surpriz h1{
+    font-size: 80px;
+    font-style: italic;
+    margin-left: 30%;
+}
+.kin-surpriz{
+    display: flex;
+}
+.surpriz1{
+    margin-left: 15%;
+}
+.surpriz1:hover{
+    box-shadow: 10px 10px 10px 10px dodgerblue;
+    cursor: pointer;
+    border-radius: 20px 0px 80px 20px;
+}
+
+
+.oyin_text{
+    width: 40%;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 5%;
+    margin-top: 15%;
+
+}
+.oyin_img{
+    margin-left: 55%;
+    transform: translateY(-30%);
+}
+.oyin_text_1{
+    width: 75%;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 25%;
+
+}
+.oyin_img_1{
+    transform: translateX(-100%) translateY(-80%);
+}
+.kitob{
+transform: translateY(-15%);
+margin-left: 10%;
+}
+.albom i{
+    font-size: 90px;
+    margin-left: 45%;
+    transform: translateY(300%);
+    color: orangered;
+    display: flex;
+}
+.box img{
+    margin-left: 5%;
+}
+.qiymat h1{
+    margin-left: 10%;
+
+}
+.qiymat p{
+    width: 65%;
+    font-size: 28px;
+    font-style: italic;
+    margin-left: 13%;
+}
+.ijtimoiy{
+    margin-left: 1%;
+    color: orangered;
+}
+.ijtimoiy img{
+    margin-left: 20%;
+}
+.tarmoq{
+    transform: translateY(400%);
+    font-size: 40px;
+}
+.insta{
+    color: orangered;
+}
+.face{
+    color: blue;
+}
+.youto{
+    color: red;
+}
+.futr{
+    width: 100%;
+    height: 60vh;
+    background-color: orangered;
+    border-radius: 0px 300px 0px 300px;
+}
+.futr img{
+    margin-top: 8%;
+}
+.kinnnnn{
+    width: 10%;
+    height: 12vh;
+    margin-top: 200%;
+}
